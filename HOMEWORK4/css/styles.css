@@ -1,0 +1,55 @@
+body {
+	font-family: sans-serif;
+}
+
+textarea {
+	resize: vertical;
+	max-height: 149px;
+	min-height: 29px;
+}
+
+.form {
+	border: 1px solid #000;
+	border-radius: 5px;
+	max-width: 299px;
+	padding: 14px;
+}
+
+.form-group {
+	border: none;
+	padding: 0;
+}
+
+.label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.form-group2 {
+	font-weight: 700;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.input,
+.textarea {
+	border: 1px solid #000;
+	border-radius: 6px;
+	min-width: 220px;
+	padding: 5px 12px;
+	margin-bottom: 10px;
+}
+
+.button {
+	border: none;
+	border-radius: 5px;
+	padding: 4px 14px;
+}
+
+.text2 {
+	font-size: 15px;
+}
