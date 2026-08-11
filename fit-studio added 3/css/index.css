@@ -15,7 +15,7 @@
 	gap: 28px;
 }
 
-.hero__title h1 {
+.hero__title {
 	margin-bottom: 40px;
 	font-family: Oswald, sans-serif;
 	font-weight: 600;
@@ -25,7 +25,7 @@
 	color: #2c332f;
 }
 
-.hero__title .hero__title-accent h1 strong {
+.hero__title-accent {
 	font-weight: 600;
 	color: #3596ed;
 }
@@ -34,7 +34,8 @@
 	max-width: 492px;
 }
 
-.hero__info .text {
+.hero__info,
+.text {
 	max-width: 440px;
 	margin-bottom: 140px;
 }
@@ -155,22 +156,22 @@
 	gap: 28px;
 }
 
-.faq__accordion-details details {
+.faq__accordion-details {
 	margin-bottom: 20px;
 	border-block: 1px solid #d3cbd9;
 }
 
-.faq__accordion-details details:last-child {
+.faq__accordion-details:last-child {
 	margin-bottom: 0;
 }
 
-.faq__accordion-details details[open] summary::after {
+.faq__accordion-details[open] .faq__accordion-summary::after {
 	-webkit-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
 
-.faq__accordion-summary summary {
+.faq__accordion-summary {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -186,7 +187,7 @@
 	cursor: pointer;
 }
 
-.faq__accordion-summary summary::after {
+.faq__accordion-summary::after {
 	content: "";
 	display: inline-block;
 	-ms-flex-negative: 0;
@@ -196,15 +197,16 @@
 	background: url(../images/стрелка-1.svg) no-repeat center / cover;
 }
 
-.faq__accordion-summary summary::-webkit-details-marker {
+.faq__accordion-summary::-webkit-details-marker {
 	display: none;
 }
-.faq__accordion-details details > p {
+.faq__accordion-details > .faq__accordion-content {
 	padding: 0 20px 20px;
 }
 
 @media (width <= 1440px) {
-	.hero__images img {
+	.hero__images,
+	.hero__img {
 		width: 50%;
 	}
 }
@@ -228,12 +230,13 @@
 		text-align: center;
 	}
 
-	.hero__title h1 {
+	.hero__title {
 		margin-bottom: 30px;
 		font-size: 52px;
 	}
 
-	.hero__info .text {
+	.hero__info,
+	.text {
 		max-width: inherit;
 		margin-bottom: 30px;
 	}
@@ -253,7 +256,7 @@
 		max-width: 350px;
 	}
 
-	.news__article-img img {
+	.news__article-img {
 		width: 100%;
 	}
 
@@ -273,7 +276,7 @@
 }
 
 @media (width <= 768px) {
-	.hero__title h1 {
+	.hero__title {
 		font-size: 50px;
 	}
 
@@ -291,7 +294,7 @@
 	.hero__info {
 		max-width: 410px;
 	}
-	.hero__title h1 {
+	.hero__title {
 		font-size: 42px;
 	}
 }
