@@ -1,0 +1,26 @@
+.hero {
+	padding-top: 60px;
+	padding-bottom: 75px;
+}
+
+.hero__img {
+	position: relative;
+	top: 100%;
+	left: 50%;
+}
+
+.hero__color-img {
+	width: 1294px;
+	height: 550px;
+	border-radius: 32px;
+	background-color: #dce5e2;
+}
+
+.hero__benefits-list {
+	font-family: Readex Pro;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 58px;
+	line-height: 69.6px;
+	letter-spacing: 0%;
+}

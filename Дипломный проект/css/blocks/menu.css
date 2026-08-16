@@ -1,0 +1,15 @@
+.menu__list {
+	display: flex;
+	align-items: center;
+	gap: 33px;
+}
+
+.menu__link {
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16.8px;
+	letter-spacing: 0%;
+	text-transform: uppercase;
+	color: var(--main-color);
+}
