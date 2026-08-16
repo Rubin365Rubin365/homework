@@ -3,24 +3,45 @@
 	padding-bottom: 75px;
 }
 
-.hero__img {
-	position: relative;
-	top: 100%;
-	left: 50%;
-}
-
-.hero__color-img {
-	width: 1294px;
-	height: 550px;
+.hero__background {
 	border-radius: 32px;
 	background-color: #dce5e2;
 }
 
-.hero__benefits-list {
+.hero__title {
 	font-family: Readex Pro;
 	font-weight: 400;
 	font-style: Regular;
 	font-size: 58px;
-	line-height: 69.6px;
+	line-height: 55px;
 	letter-spacing: 0%;
+}
+
+.title {
+	margin-top: 145px;
+	margin-left: 56px;
+	margin-bottom: 19px;
+}
+.hero__paragraph {
+	font-family: Inter;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 0%;
+}
+
+.text {
+	margin-left: 56px;
+	margin-bottom: 207px;
+}
+
+.hero__header {
+	display: flex;
+	gap: 156px;
+}
+
+.hero__img {
+	width: 1150px;
+	height: 550px;
 }
