@@ -8,8 +8,12 @@
 	background-color: #dce5e2;
 }
 
+.hero__header {
+	display: flex;
+}
+
 .hero__title {
-	font-family: Readex Pro;
+	font-family: ReadexPro;
 	font-weight: 400;
 	font-style: Regular;
 	font-size: 58px;
@@ -36,12 +40,9 @@
 	margin-bottom: 207px;
 }
 
-.hero__header {
-	display: flex;
-	gap: 156px;
+.hero__image-phones {
+	align-self: flex-end;
 }
 
 .hero__img {
-	width: 1150px;
-	height: 550px;
 }

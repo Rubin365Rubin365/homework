@@ -19,10 +19,13 @@
 	flex-grow: 1;
 }
 
+.header__details-icon {
+	stroke: currentColor;
+}
+
 .header__controls {
 	display: flex;
 	align-items: center;
-	gap: 285px;
 }
 
 .header__actions {
@@ -47,8 +50,4 @@
 	width: 15px;
 	height: 10px;
 	color: #070847;
-}
-
-.header__details-icon {
-	stroke: currentColor;
 }
