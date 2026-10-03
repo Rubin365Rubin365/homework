@@ -42,6 +42,7 @@
 }
 
 .hero__button {
+	display: flex;
 	margin-left: 56px;
 	margin-bottom: 116px;
 	border: 1px solid #000;
@@ -51,6 +52,8 @@
 }
 
 .button {
+	align-items: center;
+	justify-content: center;
 	padding-left: 53px;
 	padding-top: 14px;
 	font-weight: 400;
