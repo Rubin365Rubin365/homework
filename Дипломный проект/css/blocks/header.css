@@ -1,3 +1,9 @@
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
 .header {
 	padding-top: 31px;
 	padding-bottom: 28px;
@@ -21,6 +27,7 @@
 
 .header__details-icon {
 	stroke: currentColor;
+	fill: none;
 }
 
 .header__controls {
@@ -47,7 +54,7 @@
 }
 
 .header__link-arrow-bottom {
-	width: 15px;
+	width: 12px;
 	height: 10px;
-	color: #070847;
+	background-color: #070847;
 }

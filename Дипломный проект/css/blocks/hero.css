@@ -4,6 +4,7 @@
 }
 
 .hero__background {
+	width: 100%;
 	border-radius: 32px;
 	background-color: #dce5e2;
 }
@@ -13,12 +14,12 @@
 }
 
 .hero__title {
+	max-width: 1000px;
 	font-family: ReadexPro;
 	font-weight: 400;
-	font-style: Regular;
 	font-size: 58px;
-	line-height: 55px;
-	letter-spacing: 0%;
+	line-height: 120%;
+	color: #000;
 }
 
 .title {
@@ -27,12 +28,30 @@
 	margin-bottom: 19px;
 }
 .hero__paragraph {
+	max-width: 568px;
 	font-family: Inter;
 	font-weight: 400;
 	font-style: Regular;
 	font-size: 16px;
 	line-height: 18px;
 	letter-spacing: 0%;
+}
+
+.button {
+	padding-top: 127px;
+	padding-left: 56px;
+	max-width: 170px;
+	max-height: 50px;
+	display: inline-block;
+	border: 1px solid #000;
+	border-radius: 200px;
+	width: 170px;
+	height: 50px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	text-transform: capitalize;
+	color: #000;
 }
 
 .text {
@@ -45,4 +64,8 @@
 }
 
 .hero__img {
+	padding-right: 19px;
+	max-width: 647px;
+	display: block;
+	height: auto;
 }
