@@ -1,0 +1,12 @@
+.sizes__slider-position {
+	position: relative;
+}
+
+.sizes__slider-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 14px;
+	height: 26px;
+	color: var(--main-color);
+}
