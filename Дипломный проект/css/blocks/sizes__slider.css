@@ -2,6 +2,13 @@
 	position: relative;
 }
 
+.sizes__slider-line {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 92%;
+}
+
 .sizes__slider-button {
 	position: absolute;
 	top: 50%;
@@ -9,4 +16,13 @@
 	width: 14px;
 	height: 26px;
 	color: var(--main-color);
+}
+
+.sizes__slider-button--prev {
+	left: 30px;
+}
+
+.sizes__slider-button--next {
+	right: 30px;
+	transform: rotate(-180deg);
 }

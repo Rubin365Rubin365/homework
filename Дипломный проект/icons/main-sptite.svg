@@ -20,4 +20,8 @@
             </clipPath>
         </defs>
     </symbol>
+    <symbol id="line" width="194" height="2" viewBox="0 0 194 2" fill="none">
+        <path d="M0 0H194V2H0V0Z" fill="black" />
+    </symbol>
+
 </svg>
