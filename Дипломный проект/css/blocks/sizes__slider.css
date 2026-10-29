@@ -3,10 +3,9 @@
 }
 
 .sizes__slider-line {
-	display: flex;
-	justify-content: space-between;
 	position: absolute;
 	top: 92%;
+	left: 24%;
 }
 
 .sizes__slider-button {

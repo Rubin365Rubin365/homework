@@ -1,12 +1,17 @@
 .hero {
 	padding-top: 60px;
-	padding-bottom: 75px;
+	padding-bottom: 89px;
 }
 
 .hero__background {
 	width: 100%;
 	border-radius: 32px;
 	background-color: #dce5e2;
+}
+
+.hero__line {
+	display: flex;
+	gap: 30px;
 }
 
 .hero__arrow-left {
