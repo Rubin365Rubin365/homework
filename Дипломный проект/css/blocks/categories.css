@@ -1,7 +1,8 @@
 .categories__title {
 	display: flex;
 	justify-content: center;
-	font-family: Readex, sans-serif;
+	font-family: ReadexPro, sans-serif;
+	margin-bottom: 9px;
 	font-weight: 400;
 	font-size: 42px;
 	line-height: 125%;
@@ -12,9 +13,11 @@
 .categories__paragraph {
 	display: flex;
 	justify-content: center;
+	font-family: ReadexPro, sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 120%;
 	text-align: center;
 	color: #000;
+	margin-bottom: 56px;
 }
