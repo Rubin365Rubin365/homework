@@ -1,0 +1,40 @@
+.Ideas__title {
+	margin-top: 47px;
+	font-family: ReadexPro, sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 125%;
+	text-align: center;
+	color: #000;
+}
+
+.Ideas__paragraph {
+	margin-bottom: 56px;
+	margin-top: 9px;
+	font-family: ReadexPro, sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 129%;
+	text-align: center;
+	color: #000;
+}
+
+.book__img {
+	max-width: 620px;
+}
+
+.Ideas__book {
+	gap: 23px;
+	display: flex;
+}
+
+.Ideas__item {
+	display: flex;
+	gap: 23px;
+	font-family: Inter, sans-serif;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 125%;
+	color: #000;
+}

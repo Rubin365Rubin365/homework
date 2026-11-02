@@ -60,6 +60,7 @@
 
 .grid__paragraph {
 	position: absolute;
+	bottom: 19px;
 	top: 376px;
 	left: 537px;
 	right: 76px;
@@ -130,7 +131,10 @@
 
 .grid__title-4 {
 	position: absolute;
-	bottom: 133px;
+	top: 133px;
+	bottom: 580px;
+	left: 40px;
+	right: 40px;
 	max-width: 233px;
 	font-family: ReadexPro, sans-serif;
 	font-weight: 400;
@@ -142,7 +146,10 @@
 
 .grid__paragraph-4 {
 	position: absolute;
-	bottom: 114px;
+	top: 114px;
+	bottom: 658px;
+	left: 133px;
+	right: 133px;
 	text-align: center;
 	font-family: Inter, sans-serif;
 }

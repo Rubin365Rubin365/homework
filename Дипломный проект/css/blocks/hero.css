@@ -3,6 +3,10 @@
 	padding-bottom: 89px;
 }
 
+.hero__container {
+	max-width: 1294px;
+}
+
 .hero__background {
 	width: 100%;
 	border-radius: 32px;
@@ -28,12 +32,8 @@
 }
 
 .hero__title {
-	max-width: 1000px;
-	font-family: ReadexPro;
-	font-weight: 400;
-	font-size: 58px;
-	line-height: 120%;
-	color: #000;
+	font-family: ReadexPro, sans-serif;
+	max-width: 588px;
 }
 
 .title {

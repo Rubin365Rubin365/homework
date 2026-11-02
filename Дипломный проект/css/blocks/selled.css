@@ -1,0 +1,23 @@
+.selled {
+	margin-bottom: 46px;
+}
+
+.selled__title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+	margin-top: 72px;
+}
+
+.selled__paragraph {
+	font-family: ReadexPro, sans-serif;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 31px;
+}
+
+.selled__items {
+	display: flex;
+	justify-content: space-between;
+	gap: 28px;
+}
