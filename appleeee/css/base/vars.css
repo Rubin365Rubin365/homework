@@ -1,0 +1,10 @@
+:root {
+	/* color */
+	--main-color: #000000;
+	--bg-color: #dbe5e2;
+	--accent-color: #f8f9fa;
+	--secondary-color: #000000, 25%;
+
+	--container-width: 1350px;
+	--container-padding: 73px;
+}

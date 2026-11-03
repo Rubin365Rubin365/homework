@@ -1,0 +1,84 @@
+.Ideas__title {
+	margin-top: 47px;
+	font-family: ReadexPro, sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 125%;
+	text-align: center;
+	color: #000;
+}
+
+.Ideas__paragraph {
+	margin-bottom: 56px;
+	margin-top: 9px;
+	font-family: ReadexPro, sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 129%;
+	text-align: center;
+	color: #000;
+}
+
+.book__img {
+	margin-bottom: 126px;
+	max-width: 620px;
+	max-height: 420px;
+}
+
+.Ideas__book {
+	gap: 35px;
+	display: flex;
+}
+
+.Ideas__list {
+	max-width: 639px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.Ideas__item-1 {
+	margin-top: 14px;
+	font-family: Inter, sans-serif;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 125%;
+	color: #000;
+}
+
+.Ideas__item {
+	position: relative;
+	font-family: Inter, sans-serif;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 125%;
+	color: #000;
+}
+
+.Ideas__button {
+	position: absolute;
+	top: px;
+}
+
+.Ideas__button-svg {
+}
+
+.Ideas__link {
+}
+
+.Ideas__see-all {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 211px;
+	margin-left: 150px;
+	transform: translateX(-85%);
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 120%;
+	text-transform: capitalize;
+	color: #000;
+}
