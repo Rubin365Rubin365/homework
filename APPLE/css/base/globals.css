@@ -1,0 +1,29 @@
+.page {
+	font-family: Index, sans-serif;
+	font-weight: 400;
+	color: var(--main-color);
+}
+
+.page__body {
+	box-sizing: border-box;
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin-inline: auto;
+}
+
+.paragraph {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 128%;
+	color: #000;
+}
+
+.title {
+	font-family: ReadexPro, sans-serif;
+	font-weight: 400;
+	font-size: 58px;
+	line-height: 120%;
+	color: #000;
+}
