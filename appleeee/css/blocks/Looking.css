@@ -1,0 +1,259 @@
+.Looking__title {
+	margin-bottom: 30px;
+	font-family: ReadexPro, sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 125%;
+	text-align: center;
+	color: #000;
+}
+
+.Looking__form {
+	position: relative;
+}
+
+.Looking__search {
+	position: absolute;
+	top: 16px;
+	left: 353px;
+	content: "";
+	width: 30px;
+	height: 29px;
+	display: inline-block;
+	background-image: url(../../icons/search.svg);
+}
+
+.Looking__search-keybord {
+	margin-bottom: 18px;
+	padding-bottom: 3px;
+	padding-left: 67px;
+	font-family: ReadexPro, Inter, sans-serif;
+	margin-left: 335px;
+	background: #f8f9fa;
+	border: 1px solid #c5c5c5;
+	border-radius: 100px;
+	width: 650px;
+	height: 60px;
+}
+
+.Looking__search-keybord::placeholder {
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+}
+
+.Looking__buttons {
+	gap: 7px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 7px;
+}
+
+.Looking__iphone {
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 90px;
+	height: 42px;
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+}
+
+.Looking__Charger {
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 98px;
+	height: 42px;
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+}
+
+.Looking__Gift {
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 68px;
+	height: 42px;
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+}
+
+.Looking__Google-Pixel__3 {
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 142px;
+	height: 42px;
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+}
+
+.Looking__Keyboard {
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 109px;
+	height: 42px;
+}
+
+.Looking__buttons-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+	margin-bottom: 61px;
+}
+
+.Looking__13-Pro__Max {
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 118px;
+	height: 42px;
+}
+
+.Looking__iPhone-12 {
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 109px;
+	height: 42px;
+}
+
+.Looking__Laptop {
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 91px;
+	height: 42px;
+}
+
+.Looking__Mobile {
+	background: #fff;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+	border: 1px solid #c5c5c5;
+	border-radius: 200px;
+	width: 89px;
+	height: 42px;
+}
+
+.Looking__container {
+	max-width: 935px;
+}
+
+.Looking__background {
+	position: relative;
+	margin-bottom: 19px;
+	margin-left: 200px;
+	background: #dce5e2;
+	border-radius: 16px;
+	width: 100%;
+	height: 450px;
+}
+
+.Never__title {
+	padding-top: 47px;
+	font-family: ReadexPro, sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 125%;
+	text-align: center;
+	color: #000;
+}
+
+.Never__paragraph {
+	padding-top: 9px;
+	padding-bottom: 14px;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	text-align: center;
+	color: #000;
+}
+
+.Never__img-1 {
+	position: absolute;
+	padding-top: 5px;
+	left: 340px;
+}
+
+.Never__form {
+	position: relative;
+}
+
+.Never__input {
+	padding-left: 32px;
+	position: absolute;
+	top: 221.5px;
+	left: 250px;
+	border: 1px solid #000;
+	border-radius: 54px 0 0 54px;
+	width: 285px;
+	height: 44.5px;
+	background: #dce5e2;
+}
+
+.Never__input::placeholder {
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+}
+
+.Never__button {
+	position: absolute;
+	top: 221px;
+	left: 532px;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 200px 200px 0;
+	width: 115px;
+	height: 45px;
+	background: #000;
+}

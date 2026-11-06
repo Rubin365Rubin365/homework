@@ -48,7 +48,6 @@
 }
 
 .Ideas__item {
-	position: relative;
 	font-family: Inter, sans-serif;
 	text-decoration: none;
 	font-weight: 400;
@@ -58,23 +57,27 @@
 }
 
 .Ideas__button {
+	position: relative;
+}
+
+.Ideas__button-svg::after {
 	position: absolute;
-	top: px;
-}
-
-.Ideas__button-svg {
-}
-
-.Ideas__link {
+	left: 35px;
+	top: 212px;
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 28px;
+	background-image: url(../../icons/arrow-right.svg);
 }
 
 .Ideas__see-all {
+	margin-bottom: 75px;
+	margin-top: -50px;
+	margin-right: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 211px;
-	margin-left: 150px;
-	transform: translateX(-85%);
 	font-family: Inter, sans-serif;
 	font-weight: 400;
 	font-size: 24px;
